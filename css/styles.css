@@ -252,9 +252,10 @@ img {
   margin-bottom: 8px;
 }
 
-/* .benefits-icons {
-  fill: #2e2f42;
-} */
+.benefits-icons {
+  width: 100%;
+  height: 100%;
+}
 
 .benefits-heading {
   text-align: left;
@@ -331,7 +332,8 @@ img {
   justify-content: center;
 }
 
-.link-icon:hover .link-icon:focus {
+.link-icon:hover,
+.link-icon:focus {
   background-color: #404bbf;
 }
 
